@@ -1,9 +1,9 @@
 ## SQL 문제를 찾아다니다가 AI로 만들어 공부하기 시작했습니다.
 - DBMS : [PostgreSQL](https://www.postgresql.org/)
 - DB
-ClassicModelsShop [MySQL Sample Database](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/)
-DVDRental [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-sample-database/)
-Yongmazon [Oracle Sample Database](https://www.oracletutorial.com/getting-started/oracle-sample-database/)
+1. ClassicModelsShop [MySQL Sample Database](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/)
+2. DVDRental [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-sample-database/)
+3. Yongmazon [Oracle Sample Database](https://www.oracletutorial.com/getting-started/oracle-sample-database/)
 - PostgreSQL에서 MySQL, Oracle Sample Database 를 사용하려면 변환이 필요합니다.
 - `.sql` 파일을 AI 에 입력하여 PostgreSQL 용으로 편집을 요청하시거나 해당하는 DBMS를 사용하시면 됩니다.
 - 답안 Issue는 PostgreSQL 문법으로 작성되어있습니다.
