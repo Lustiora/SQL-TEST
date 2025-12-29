@@ -10,5 +10,5 @@ Yongmazon [Oracle Sample Database](https://www.oracletutorial.com/getting-starte
 
 <p></p>
 
-해당 Project의 문제를 푸시기 전에 하단 링크의 문제를 풀어보시는걸 추천합니다.
+### 해당 Project의 문제를 푸시기 전에 하단 링크의 문제를 풀어보시는걸 추천합니다.<br>
 [programmers SQL 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
