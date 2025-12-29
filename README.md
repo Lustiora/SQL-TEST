@@ -6,7 +6,10 @@
 ### DB
 ClassicModelsShop [MySQL Sample Database](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/)<br>
 DVDRental [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-sample-database/)<br>
-Yongmazon [Oracle Sample Database](https://www.oracletutorial.com/getting-started/oracle-sample-database/)
+Yongmazon [Oracle Sample Database](https://www.oracletutorial.com/getting-started/oracle-sample-database/)<br>
+<br>
+PostgreSQL에서 MySQL, Oracle Sample Database 를 사용하려면 변환이 필요합니다.<br>
+`.sql` 파일을 AI 에 입력하여 PostgreSQL 용으로 편집을 요청하시거나 해당하는 DBMS를 사용하시면 됩니다.
 
 <p></p>
 
