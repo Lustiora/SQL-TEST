@@ -18,6 +18,8 @@
 - 영문 [leetcode](https://leetcode.com/studyplan/top-sql-50/)
 
 ### 문제 목록
+
+#### Step 1. 정확하고 복잡한 데이터 추출
 - [영업 사원별 "최대 매출" 기여 카테고리 추출 (Join , Window Function)](https://github.com/Lustiora/SQL-TEST/issues/1)
 - [카테고리별 평균 연체 기간 분석 (날짜/시간 Function)](https://github.com/Lustiora/SQL-TEST/issues/3)
 - [전 세계 지사(Office)별 매출 효율성 분석 (Fan-out)](https://github.com/Lustiora/SQL-TEST/issues/5)
@@ -31,3 +33,7 @@
 - [조직 계층별 팀 누적 매출 분석 (재귀 CTE)](https://github.com/Lustiora/SQL-TEST/issues/21)
 - [매니저별 글로벌 시장 지배력 분석 (재귀 CTE + 집합 집계)](https://github.com/Lustiora/SQL-TEST/issues/24)
 - [VIP 고객 분류 및 소비 패턴 분석 (RFM 변형) (Join + 집계 + CTE)](https://github.com/Lustiora/SQL-TEST/issues/26)
+
+#### Step 2. 가독성과 효율적인 쿼리 작성
+- [이탈 고객(Churn) 발굴](https://github.com/Lustiora/SQL-TEST/issues/28)
+- [매장별 가격대(Price Tier) 선호도 분석](https://github.com/Lustiora/SQL-TEST/issues/30)
