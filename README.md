@@ -5,7 +5,7 @@
 2. DVDRental [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-sample-database/)
 3. Yongmazon [Oracle Sample Database](https://www.oracletutorial.com/getting-started/oracle-sample-database/)
 - PostgreSQL에서 MySQL, Oracle Sample Database 를 사용하려면 변환이 필요합니다.
-- `.sql` 파일을 AI 에 입력하여 PostgreSQL 용으로 편집을 요청하시거나 해당하는 DBMS를 사용하시면 됩니다.
+- DB `.sql` 을 AI 에 입력하여 PostgreSQL 용으로 편집을 요청하시거나 해당하는 DBMS를 사용하시면 됩니다.
 - 답안 Issue는 PostgreSQL 문법으로 작성되어있습니다.
 
 ### 참고 링크
@@ -34,6 +34,8 @@
 - [매니저별 글로벌 시장 지배력 분석 (재귀 CTE + 집합 집계)](https://github.com/Lustiora/SQL-TEST/issues/24)
 - [VIP 고객 분류 및 소비 패턴 분석 (RFM 변형) (Join + 집계 + CTE)](https://github.com/Lustiora/SQL-TEST/issues/26)
 
-#### Step 2. 가독성과 효율적인 쿼리 작성
+#### Step 2. 가독성과 효율성
 - [이탈 고객(Churn) 발굴](https://github.com/Lustiora/SQL-TEST/issues/28)
 - [매장별 가격대(Price Tier) 선호도 분석](https://github.com/Lustiora/SQL-TEST/issues/30)
+- [고객 이메일 도메인 분석](https://github.com/Lustiora/SQL-TEST/issues/32)
+- [영화별 출연 배우 리스트](https://github.com/Lustiora/SQL-TEST/issues/34)
