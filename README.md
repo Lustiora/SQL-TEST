@@ -40,4 +40,4 @@
 - [고객 이메일 도메인 분석](https://github.com/Lustiora/SQL-TEST/issues/32)
 - [영화별 출연 배우 리스트](https://github.com/Lustiora/SQL-TEST/issues/34)
 - [고객별 '마지막' 대여 영화 찾기](https://github.com/Lustiora/SQL-TEST/issues/36)
-- 
+- [고객별 평균 재구매 주기](https://github.com/Lustiora/SQL-TEST/issues/38)
