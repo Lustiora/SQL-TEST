@@ -33,6 +33,7 @@
 - [조직 계층별 팀 누적 매출 분석 (재귀 CTE)](https://github.com/Lustiora/SQL-TEST/issues/21)
 - [매니저별 글로벌 시장 지배력 분석 (재귀 CTE + 집합 집계)](https://github.com/Lustiora/SQL-TEST/issues/24)
 - [VIP 고객 분류 및 소비 패턴 분석 (RFM 변형) (Join + 집계 + CTE)](https://github.com/Lustiora/SQL-TEST/issues/26)
+- [고객별 평균 재구매 주기](https://github.com/Lustiora/SQL-TEST/issues/38)
 
 #### Step 2. 가독성과 효율성
 - [이탈 고객(Churn) 발굴](https://github.com/Lustiora/SQL-TEST/issues/28)
@@ -40,4 +41,3 @@
 - [고객 이메일 도메인 분석](https://github.com/Lustiora/SQL-TEST/issues/32)
 - [영화별 출연 배우 리스트](https://github.com/Lustiora/SQL-TEST/issues/34)
 - [고객별 '마지막' 대여 영화 찾기](https://github.com/Lustiora/SQL-TEST/issues/36)
-- [고객별 평균 재구매 주기](https://github.com/Lustiora/SQL-TEST/issues/38)
