@@ -55,6 +55,7 @@
 
 #### **Step 3 (물리적 최적화)** : 인덱스 원리, SARGable(가공 금지), 실행 속도 고려.
 - **Middle** [인덱스가 있음에도 불구하고 1,000만 건 전체를 뒤지는(Full Table Scan) 현상이 발생하여 속도가 매우 느림](https://github.com/Lustiora/ANSI_SQL_TEST/issues/40)
+- **Middle** [성능 저하의 주범찾기](https://github.com/Lustiora/ANSI_SQL_TEST/issues/42)
 
 #### **Step 4 (고급 분석)** : 순서가 있는 데이터(`LAG`), 계층 구조(재귀), 복잡한 순위(`RANK`).
 - **Middle** [고객별 '마지막' 대여 영화 찾기](https://github.com/Lustiora/SQL-TEST/issues/36)
