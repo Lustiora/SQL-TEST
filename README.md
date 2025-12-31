@@ -1,9 +1,12 @@
 ## SQL 문제를 찾아다니다가 AI로 만들어 공부하기 시작했습니다.
+
+### 사용 DBMS , DB
 - DBMS : [PostgreSQL](https://www.postgresql.org/)
-- DB
-1. ClassicModelsShop [MySQL Sample Database](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/)
-2. DVDRental [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-sample-database/)
-3. Yongmazon [Oracle Sample Database](https://www.oracletutorial.com/getting-started/oracle-sample-database/)
+- DB : ClassicModelsShop [MySQL Sample Database](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/)
+- DB : DVDRental [PostgreSQL Sample Database](https://www.postgresqltutorial.com/postgresql-sample-database/)
+- DB : Yongmazon [Oracle Sample Database](https://www.oracletutorial.com/getting-started/oracle-sample-database/)
+
+### 참고 사항
 - PostgreSQL에서 MySQL, Oracle Sample Database 를 사용하려면 변환이 필요합니다.
 - DB `.sql` 을 AI 에 입력하여 PostgreSQL 용으로 편집을 요청하시거나 해당하는 DBMS를 사용하시면 됩니다.
 - 답안 Issue는 PostgreSQL 문법으로 작성되어있습니다.
@@ -18,20 +21,24 @@
 - 영문 [leetcode](https://leetcode.com/studyplan/top-sql-50/)
 
 ### 난이도 (Difficulty)
+
 #### **하 (Low)** :
 * 단일 테이블 혹은 단순 2개 테이블 조인.
 * 기본적인 `WHERE`, `GROUP BY`, `ORDER BY` 사용.
 * 문제의 요구사항이 SQL 문법과 1:1로 직관적으로 매칭되는 경우.
+
 #### **중 (Medium)** :
 * 3개 이상의 테이블 조인, 혹은 서브쿼리(Subquery) 활용.
 * `CASE WHEN`, `COALESCE`, 날짜/문자열 함수 등의 활용.
 * 논리적인 단계가 2단계 이상 필요함 (예: 먼저 집계하고, 그 결과를 다시 필터링).
+
 #### **상 (High)** :
 * **윈도우 함수(Window Function)** 의 심화 활용 (`LAG`, `LEAD`, `Frame` 설정 등).
 * **재귀 쿼리(Recursive CTE)**, Self-Join, 복잡한 집합 연산.
 * 성능 최적화(Index) 고려 필요, 혹은 데이터 구조를 완전히 바꾸는(Pivot) 작업.
 
 ### 문제 목록
+
 #### **Step 1 (논리적 구조화)** : 정확한 데이터 추출, 다중 조인(Join), 기본 집계.
 - **Low** ["천의 얼굴"을 가진 배우 찾기 (GROUP BY + HAVING)](https://github.com/Lustiora/SQL-TEST/issues/7)
 - **Middle** [전 세계 지사(Office)별 매출 효율성 분석 (Fan-out)](https://github.com/Lustiora/SQL-TEST/issues/5)
