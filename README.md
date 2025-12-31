@@ -17,27 +17,46 @@
 - [programmers SQL 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 - 영문 [leetcode](https://leetcode.com/studyplan/top-sql-50/)
 
+### 난이도 (Difficulty)
+#### **하 (Low)** :
+* 단일 테이블 혹은 단순 2개 테이블 조인.
+* 기본적인 `WHERE`, `GROUP BY`, `ORDER BY` 사용.
+* 문제의 요구사항이 SQL 문법과 1:1로 직관적으로 매칭되는 경우.
+#### **중 (Medium)** :
+* 3개 이상의 테이블 조인, 혹은 서브쿼리(Subquery) 활용.
+* `CASE WHEN`, `COALESCE`, 날짜/문자열 함수 등의 활용.
+* 논리적인 단계가 2단계 이상 필요함 (예: 먼저 집계하고, 그 결과를 다시 필터링).
+#### **상 (High)** :
+* **윈도우 함수(Window Function)** 의 심화 활용 (`LAG`, `LEAD`, `Frame` 설정 등).
+* **재귀 쿼리(Recursive CTE)**, Self-Join, 복잡한 집합 연산.
+* 성능 최적화(Index) 고려 필요, 혹은 데이터 구조를 완전히 바꾸는(Pivot) 작업.
+
 ### 문제 목록
+#### **Step 1 (논리적 구조화)** : 정확한 데이터 추출, 다중 조인(Join), 기본 집계.
+- **Low** ["천의 얼굴"을 가진 배우 찾기 (GROUP BY + HAVING)](https://github.com/Lustiora/SQL-TEST/issues/7)
+- **Middle** [전 세계 지사(Office)별 매출 효율성 분석 (Fan-out)](https://github.com/Lustiora/SQL-TEST/issues/5)
+- **Middle** [대륙별 창고 재고 자산 가치 평가 (Multi-join)](https://github.com/Lustiora/SQL-TEST/issues/9)
 
-#### Step 1. 정확하고 복잡한 데이터 추출
-- [영업 사원별 "최대 매출" 기여 카테고리 추출 (Join , Window Function)](https://github.com/Lustiora/SQL-TEST/issues/1)
-- [카테고리별 평균 연체 기간 분석 (날짜/시간 Function)](https://github.com/Lustiora/SQL-TEST/issues/3)
-- [전 세계 지사(Office)별 매출 효율성 분석 (Fan-out)](https://github.com/Lustiora/SQL-TEST/issues/5)
-- ["천의 얼굴"을 가진 배우 찾기 (GROUP BY + HAVING)](https://github.com/Lustiora/SQL-TEST/issues/7)
-- [대륙별 창고 재고 자산 가치 평가 (Multi-join)](https://github.com/Lustiora/SQL-TEST/issues/9)
-- [월별 매출 성장률(MoM) 분석 (Window Function)](https://github.com/Lustiora/SQL-TEST/issues/11)
-- [제품 라인별 "평균 이상"의 프리미엄 제품 찾기 (중첩 CTE)](https://github.com/Lustiora/SQL-TEST/issues/13)
-- [각 라인별 "재고 부족" 비상 제품 파악 (중첩 CTE)](https://github.com/Lustiora/SQL-TEST/issues/15)
-- [VIP 고객과 구매 성향 분석 (중첩 CTE)](https://github.com/Lustiora/SQL-TEST/issues/17)
-- [2004년 제품 라인별 "베스트셀러"와 매출 기여도 분석 (중첩 CTE)](https://github.com/Lustiora/SQL-TEST/issues/19)
-- [조직 계층별 팀 누적 매출 분석 (재귀 CTE)](https://github.com/Lustiora/SQL-TEST/issues/21)
-- [매니저별 글로벌 시장 지배력 분석 (재귀 CTE + 집합 집계)](https://github.com/Lustiora/SQL-TEST/issues/24)
-- [VIP 고객 분류 및 소비 패턴 분석 (RFM 변형) (Join + 집계 + CTE)](https://github.com/Lustiora/SQL-TEST/issues/26)
-- [고객별 평균 재구매 주기](https://github.com/Lustiora/SQL-TEST/issues/38)
+#### **Step 2 (가독성과 효율성)** : `CTE`, `CASE WHEN`, `FILTER`, 문자열 처리 등 "깔끔한 쿼리" 작성.
+- **Middle** [카테고리별 평균 연체 기간 분석 (날짜/시간 Function)](https://github.com/Lustiora/SQL-TEST/issues/3)
+- **Middle** [VIP 고객 분류 및 소비 패턴 분석 (RFM 변형) (Join + 집계 + CTE)](https://github.com/Lustiora/SQL-TEST/issues/26)
+- **Middle** [이탈 고객(Churn) 발굴](https://github.com/Lustiora/SQL-TEST/issues/28)
+- **Middle** [고객 이메일 도메인 분석](https://github.com/Lustiora/SQL-TEST/issues/32)
+- **Middle** [영화별 출연 배우 리스트](https://github.com/Lustiora/SQL-TEST/issues/34)
+- **High** [제품 라인별 "평균 이상"의 프리미엄 제품 찾기 (중첩 CTE)](https://github.com/Lustiora/SQL-TEST/issues/13)
+- **High** [VIP 고객과 구매 성향 분석 (중첩 CTE)](https://github.com/Lustiora/SQL-TEST/issues/17)
 
-#### Step 2. 가독성과 효율성
-- [이탈 고객(Churn) 발굴](https://github.com/Lustiora/SQL-TEST/issues/28)
-- [매장별 가격대(Price Tier) 선호도 분석](https://github.com/Lustiora/SQL-TEST/issues/30)
-- [고객 이메일 도메인 분석](https://github.com/Lustiora/SQL-TEST/issues/32)
-- [영화별 출연 배우 리스트](https://github.com/Lustiora/SQL-TEST/issues/34)
-- [고객별 '마지막' 대여 영화 찾기](https://github.com/Lustiora/SQL-TEST/issues/36)
+#### **Step 3 (물리적 최적화)** : 인덱스 원리, SARGable(가공 금지), 실행 속도 고려.
+
+#### **Step 4 (고급 분석)** : 순서가 있는 데이터(`LAG`), 계층 구조(재귀), 복잡한 순위(`RANK`).
+- **Middle** [고객별 '마지막' 대여 영화 찾기](https://github.com/Lustiora/SQL-TEST/issues/36)
+- **Middle** [고객별 평균 재구매 주기](https://github.com/Lustiora/SQL-TEST/issues/38)
+- **High** [영업 사원별 "최대 매출" 기여 카테고리 추출 (Join , Window Function)](https://github.com/Lustiora/SQL-TEST/issues/1)
+- **High** [월별 매출 성장률(MoM) 분석 (Window Function)](https://github.com/Lustiora/SQL-TEST/issues/11)
+- **High** [각 라인별 "재고 부족" 비상 제품 파악 (중첩 CTE)](https://github.com/Lustiora/SQL-TEST/issues/15)
+- **High** [2004년 제품 라인별 "베스트셀러"와 매출 기여도 분석 (중첩 CTE)](https://github.com/Lustiora/SQL-TEST/issues/19)
+- **High** [조직 계층별 팀 누적 매출 분석 (재귀 CTE)](https://github.com/Lustiora/SQL-TEST/issues/21)
+- **High** [매니저별 글로벌 시장 지배력 분석 (재귀 CTE + 집합 집계)](https://github.com/Lustiora/SQL-TEST/issues/24)
+
+#### **Step 5 (데이터 재구조화)** : 피벗(Pivot), 언피벗(Unpivot), JSON 처리 등 리포팅을 위한 변형.
+- **Middle** [매장별 가격대(Price Tier) 선호도 분석](https://github.com/Lustiora/SQL-TEST/issues/30)
