@@ -59,6 +59,8 @@
 - **Low** [인덱스를 타지 않고 Full Table Scan이 발생](https://github.com/Lustiora/ANSI_SQL_TEST/issues/44)
 - **Middle** [어떤 인덱스가 더 효율적인가?](https://github.com/Lustiora/ANSI_SQL_TEST/issues/46)
 - **Middle** [자유게시판 게시글 목록 로딩이 너무 느려요!](https://github.com/Lustiora/ANSI_SQL_TEST/issues/48)
+- **Middle** [인덱스를 걸었는데 왜 이렇게 조회가 느려](https://github.com/Lustiora/ANSI_SQL_TEST/issues/52)
+- **High** [인덱스를 걸었는데 왜 안 타지?](https://github.com/Lustiora/ANSI_SQL_TEST/issues/50)
 
 #### **Step 4 (고급 분석)** : 순서가 있는 데이터(`LAG`), 계층 구조(재귀), 복잡한 순위(`RANK`).
 - **Middle** [고객별 '마지막' 대여 영화 찾기](https://github.com/Lustiora/SQL-TEST/issues/36)
