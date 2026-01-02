@@ -10,11 +10,13 @@
 - PostgreSQL에서 MySQL, Oracle Sample Database 를 사용하려면 변환이 필요합니다.
 - DB `.sql` 을 AI 에 입력하여 PostgreSQL 용으로 편집을 요청하시거나 해당하는 DBMS를 사용하시면 됩니다.
 - 답안 Issue는 PostgreSQL 문법으로 작성되어있습니다.
+- [목표](https://github.com/Lustiora/ANSI_SQL_TEST/issues/58)
 
 ### 참고 링크
 - [DBeaver](https://dbeaver.io/)<br>
 - [w3schools PostgreSQL Tutorial](https://www.w3schools.com/postgresql/index.php)<br>
 - [DBMS 별 사용 가능 구문 정리](https://www.sql-workbench.eu/dbms_comparison.html)
+- [PostgreSQL 성능 최적화](https://edbkorea.com/blog/postgresql-oltp-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94/)
 
 ### 해당 Project의 문제를 푸시기 전에 하단 링크의 문제를 풀어보시는걸 추천합니다.
 - [programmers SQL 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
